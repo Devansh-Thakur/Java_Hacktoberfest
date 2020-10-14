@@ -7,8 +7,7 @@ public class Main {
         Random random = new Random();
         int ranNum = random.nextInt(numbers.length-1);
         int a = numbers[ranNum];
-        System.out.print("Your generated random number is:  ");
-        System.out.println(a);
+        System.out.print("Your generated random number is:  " + a);
 
     }
 }
